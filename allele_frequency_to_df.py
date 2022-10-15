@@ -9,4 +9,4 @@ df.reset_index(level = [0,1], inplace = True)
 df.drop(labels=0, axis=0, inplace=True)
 print(df)
 
-df.to_csv('allele_frequencies.csv')
+df.to_csv('allele_frequencies.csv', index = False)
